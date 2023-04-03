@@ -131,6 +131,7 @@ a:not([href]):not([tabindex]) {
   position: relative;
   z-index: 1;
   text-transform: uppercase;
+  border-radius: 30px;
 }
 
 .btn-common:hover {
@@ -206,6 +207,7 @@ button:focus {
 
 .social-icon a:hover {
   color: #fff !important;
+  text-decoration-line: none;
 }
 
 .social-icon .facebook:hover {
@@ -643,6 +645,7 @@ hr {
 
 .navbar {
   padding: 10px 0;
+  background-color: white;
 }
 
 /* .navbar li.active a.nav-link {
@@ -1132,6 +1135,7 @@ textarea {
   font-size: 14px;
   font-weight: 400;
   position: relative;
+  text-decoration: none;
 }
 
 .footer-area .footer-link li a:hover {
